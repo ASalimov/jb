@@ -13,6 +13,6 @@ cp -r ./cmd ${SRCDIR}
 (
     echo ${GOPATH}
     cd ${SRCDIR}
-    go get .
+    go get -d ./...
     go install .
 )
